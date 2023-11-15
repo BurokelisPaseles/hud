@@ -1,0 +1,45 @@
+body {
+    background-color: transparent;
+    margin: 1;
+    padding: 0;
+}
+
+.status-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
+    padding: 7px;
+    display: inline-flex;
+}
+
+.stat {
+    margin: 0 10px;
+}
+
+.stat-icon img {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+}
+
+.stat-bar {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+#health-bar {
+    background-color: rgb(255, 0, 0)
+}
+
+#oxygen-bar {
+    background-color: rgb(157, 182, 219)
+}
+
+#armor-bar {
+    background-color: rgb(24, 134, 207)
+}
+
+#stamina-bar {
+    background-color: rgb(255, 174, 0)
+}
